@@ -1,0 +1,46 @@
+body{
+    background-color: #1c2030;
+}
+
+a{
+    text-decoration: none;
+}
+/* ----------------------------------------Navbar CSS--------------------------------------------- */
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    /* justify-content: space-between; */
+    margin: auto;
+    position: fixed;
+    /* gap: 30px; */
+}
+#navbar>div{
+    border: 1px solid yellow;
+}
+#navbar>div:nth-child(1)>a>div>img{
+    height: 35px;
+    padding-top: 10px;
+}
+#navbar>div:nth-child(2)>a>h3{
+    border: 1px solid rgb(14, 238, 226);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 50px;
+}
+#navbar>div:nth-child(2){
+    border: 1px solid yellow;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    gap:20px;
+    
+}
+#navbar>div:nth-child(3){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#navbar>div:nth-child(3)>div{
+    border: 2px solid rgb(228, 134, 205);
+    margin: auto;
+}
