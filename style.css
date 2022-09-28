@@ -44,3 +44,39 @@ a{
     border: 2px solid rgb(228, 134, 205);
     margin: auto;
 }
+/* ---------------------------------------------------------------------------- */
+/* Navbar video & image starting  */
+.nav-video{
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%; 
+    }
+    #video-hov{
+        width: 40%;
+        margin: auto;
+        /* border: 1px solid blue; */
+        color: white;
+        position: relative;
+        top: 200px;
+        font-size: xx-large;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        #video-hov>img{
+            width: 80%;
+            /* height: 80%; */
+        }
+        #video-hov>button{
+            padding: 10px 25px;
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+        button>a>span{
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            font-weight: bolder;
+            text-decoration: none;
+        }
