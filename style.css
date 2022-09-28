@@ -1,5 +1,7 @@
 body{
-    background-color: #1c2030;
+    background-color:white;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -7,6 +9,7 @@ a{
 }
 /* ----------------------------------------Navbar CSS--------------------------------------------- */
 #navbar{
+    background-color: #171A26;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,auto);
@@ -14,22 +17,20 @@ a{
     margin: auto;
     position: fixed;
     /* gap: 30px; */
-}
-#navbar>div{
-    border: 1px solid yellow;
+    z-index:+3;
 }
 #navbar>div:nth-child(1)>a>div>img{
     height: 35px;
     padding-top: 10px;
 }
 #navbar>div:nth-child(2)>a>h3{
-    border: 1px solid rgb(14, 238, 226);
+    /* border: 1px solid rgb(14, 238, 226); */
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-right: 50px;
 }
 #navbar>div:nth-child(2){
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-content: space-between;
@@ -41,37 +42,56 @@ a{
     grid-template-columns: repeat(4,1fr);
 }
 #navbar>div:nth-child(3)>div{
-    border: 2px solid rgb(228, 134, 205);
+    /* border: 2px solid rgb(228, 134, 205); */
     margin: auto;
 }
-/* ---------------------------------------------------------------------------- */
-/* Navbar video & image starting  */
+.nav-last>div:nth-child(3)>img{
+    margin-left: 18px;
+    width:45%;
+}
+.nav-last>div:nth-child(4)>img{
+    width:70%;
+}
+.nav-last>div:nth-child(2)>button{
+    border: 2px solid white;
+    background-color: #171A26;
+    border-radius: 5px;
+}
+.nav-last>div:nth-child(2)>button>div{
+    color: white;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------------------------Navbar vdo part CSS-------------------------------------- */
 .nav-video{
     position:absolute;
     z-index:-1;
     top:0;
     left:0;
-    width:100%; 
+    width:100%;
+    height: 800px;
     }
     #video-hov{
-        width: 40%;
+        width: 50%;
         margin: auto;
         /* border: 1px solid blue; */
         color: white;
         position: relative;
-        top: 200px;
+        top:250px;
         font-size: xx-large;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         }
         #video-hov>img{
-            width: 80%;
-            /* height: 80%; */
+            width: 70%;
         }
-        #video-hov>button{
-            padding: 10px 25px;
+        #video-hov>div>button{
+            /* border: 1px solid blue; */
             border-radius: 5px;
-            border: 1px solid white;
+            height: 40px;
+            width:40%;
+            font-weight: 700;
         }
         button>a>span{
             color: red;
@@ -79,4 +99,91 @@ a{
             font-size: medium;
             font-weight: bolder;
             text-decoration: none;
+        }
+        /* ---------------------------TRY FOR FREE------------------------- */
+        #try-free{
+            /* border: 2px solid yellow; */
+            width: 80%;
+            height: auto;
+            margin: auto;
+            margin-top: 30%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(1,auto);
+            gap:20px;
+        }
+        #try-free > div{
+            /* margin: auto; */
+            border: 1px solid skyblue;
+            border-radius: 10px;
+            font-size: medium;
+            color: white;
+            text-align: center;
+            /* ---- */
+            padding: 10px 20px;
+            background-color: #232631;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+        #try-free > div >img{
+            margin: auto;
+            margin-top: 20px;
+            width: 40%;
+        }
+        /* #top-last>div:hover{
+            background-color: #323952;
+        } */
+        /* --------------------------another homepage 1st part--------------------------- */
+        #fun-part{
+            margin: auto;
+            width: 80%;
+            height: 500px;
+            margin-top: 10%;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-between;
+        }
+        #fun-part>div:nth-child(1){
+            width:33%;
+            font-size: 18px;
+            font-weight:bold;
+            color: #5d5c5c;
+            margin-bottom: 10%;
+            line-height: 40px;
+        }
+        #fun-part>div:nth-child(2){
+            /* border: 1px solid#171A26; */
+            background-color: #bbcfd4f7;
+            width: 65%;
+            height: 72%;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        #fun-part>div:nth-child(2)>video{
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        /* ----------------------------2nd part--------------------------- */
+        #fun-cult-part{
+            /* border: 2px solid crimson; */
+            display: block;
+            width:100%;
+            margin: auto;
+        }
+        #mix-img-part1{
+            border: 2px solid blue;
+            /* display: flex; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .mix-img{
+            border: 2px solid rgb(168, 231, 23);
+            z-index: -1 ;
+            position: absolute;
+        }
+        .hover{
+            border: 2px solid rgb(215, 23, 225);
+            width: 30%;
+            color: white;
         }
