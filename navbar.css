@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    background-color: #171A26;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    margin: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index:+3;
+}
+#navbar>div:nth-child(1)>a>div>img{
+    margin-left: 15px;
+    height: 35px;
+    padding-top: 10px;
+}
+#navbar>div:nth-child(2)>a>h3{
+    /* border: 1px solid rgb(14, 238, 226); */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 50px;
+}
+#navbar>div:nth-child(2){
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    gap:20px;
+    
+}
+#navbar>div:nth-child(3){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#navbar>div:nth-child(3)>div{
+    /* border: 2px solid rgb(228, 134, 205); */
+    margin: auto;
+}
+.nav-last>div:nth-child(3)>img{
+    margin-left: 18px;
+    width:45%;
+}
+.nav-last>div:nth-child(4)>img{
+    width:70%;
+}
+.nav-last>div:nth-child(2)>button{
+    border: 2px solid white;
+    background-color: #171A26;
+    border-radius: 5px;
+}
+.nav-last>div:nth-child(2)>button>div{
+    color: white;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}

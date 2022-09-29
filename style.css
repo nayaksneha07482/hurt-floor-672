@@ -3,67 +3,6 @@ body{
     margin: 0;
     padding: 0;
 }
-
-a{
-    text-decoration: none;
-}
-/* ----------------------------------------Navbar CSS--------------------------------------------- */
-#navbar{
-    background-color: #171A26;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,auto);
-    /* justify-content: space-between; */
-    margin: auto;
-    position: fixed;
-    /* gap: 30px; */
-    z-index:+3;
-}
-#navbar>div:nth-child(1)>a>div>img{
-    margin-left: 15px;
-    height: 35px;
-    padding-top: 10px;
-}
-#navbar>div:nth-child(2)>a>h3{
-    /* border: 1px solid rgb(14, 238, 226); */
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-right: 50px;
-}
-#navbar>div:nth-child(2){
-    /* border: 1px solid yellow; */
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-content: space-between;
-    gap:20px;
-    
-}
-#navbar>div:nth-child(3){
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-#navbar>div:nth-child(3)>div{
-    /* border: 2px solid rgb(228, 134, 205); */
-    margin: auto;
-}
-.nav-last>div:nth-child(3)>img{
-    margin-left: 18px;
-    width:45%;
-}
-.nav-last>div:nth-child(4)>img{
-    width:70%;
-}
-.nav-last>div:nth-child(2)>button{
-    border: 2px solid white;
-    background-color: #171A26;
-    border-radius: 5px;
-}
-.nav-last>div:nth-child(2)>button>div{
-    color: white;
-    font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /* --------------------------------Navbar vdo part CSS-------------------------------------- */
 .nav-video{
     position:absolute;
@@ -115,7 +54,7 @@ a{
         }
         #try-free > div{
             /* margin: auto; */
-            border: 1px solid skyblue;
+            border: 1px solid rgb(132, 215, 243);
             border-radius: 10px;
             font-size: medium;
             color: white;
@@ -125,6 +64,9 @@ a{
             background-color: #232631;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+        #try-free > div:hover{
+            background-color: rgb(148, 152, 152);
         }
         #try-free > div >img{
             margin: auto;
