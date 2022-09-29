@@ -20,6 +20,7 @@ a{
     z-index:+3;
 }
 #navbar>div:nth-child(1)>a>div>img{
+    margin-left: 15px;
     height: 35px;
     padding-top: 10px;
 }
@@ -168,22 +169,74 @@ a{
         #fun-cult-part{
             /* border: 2px solid crimson; */
             display: block;
-            width:100%;
+            width:80%;
             margin: auto;
+            margin-top: 80px;
         }
         #mix-img-part1{
-            border: 2px solid blue;
-            /* display: flex; */
+            /* border: 2px solid blue; */
+            width: 100%;
+            margin: auto;
             display: grid;
             grid-template-columns: repeat(3,1fr);
         }
         .mix-img{
-            border: 2px solid rgb(168, 231, 23);
+            /* border: 2px solid rgb(168, 231, 23); */
             z-index: -1 ;
             position: absolute;
         }
         .hover{
-            border: 2px solid rgb(215, 23, 225);
-            width: 30%;
+            /* border: 2px solid rgb(215, 23, 225); */
+            font-weight: 700;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 60%;
+            margin-left: 10px;
             color: white;
+            margin-top: 10px
+        }
+        .hover >button{
+            font-weight: 700;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 20px;
+            padding: 3px 9px;
+            border: 1px solid white;
+            color: white;
+            background-color: black;
+        }
+        #fun-cult-part > div:nth-child(2) >p{
+            color: rgba(58, 54, 54, 0.771);
+            font-size:x-large;
+            font-weight: bold;
+            word-spacing:5px;
+            letter-spacing: 3px;
+            font-family: Georgia, serif;
+        }
+        .explore{
+            font-size: 18px;
+            float: right;
+            margin-top: -50px;
+        }
+        .explore > span{
+            font-size: 20px;
+            font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+            cursor: pointer;
+            padding-top: 0;
+            color: black;
+            font-weight: 700;
+        }
+        .explore-img{
+            height: 22px;
+            width: 10px;
+            margin:auto;
+            margin-left: 10px;
+            transform: rotate(180deg);
+        }
+        .img-paragraph{
+            word-spacing:3px;
+            font-family: Georgia, serif;
+            width: 60%;
+            color: #5d5c5c;
+            margin-bottom: 50px;
         }
