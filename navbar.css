@@ -43,11 +43,11 @@ a{
     /* border: 2px solid rgb(228, 134, 205); */
     margin: auto;
 }
-.nav-last>div:nth-child(3)>img{
+.signup>img{
     margin-left: 18px;
     width:45%;
 }
-.nav-last>div:nth-child(4)>img{
+.navCart>img{
     width:70%;
 }
 .nav-last>div:nth-child(2)>button{
