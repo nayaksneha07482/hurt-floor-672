@@ -1,8 +1,11 @@
 body{
-    background-color:white;
+    /* background-color:white; */
+    background-color: #171A26;
     margin: 0;
     padding: 0;
+    font-family: 'BrandonTextWeb-Regular';
 }
+
 /* --------------------------------Navbar vdo part CSS-------------------------------------- */
 .nav-video{
     position:absolute;
@@ -66,7 +69,7 @@ body{
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         }
         #try-free > div:hover{
-            background-color: rgb(148, 152, 152);
+            background-color: #424757;
         }
         #try-free > div >img{
             margin: auto;
@@ -107,7 +110,7 @@ body{
             padding-top: 5px;
             padding-bottom: 5px;
         }
-        /* ----------------------------2nd part--------------------------- */
+        /* ---------------2nd part MAKES FITNESS FUN & EASY--------------------------- */
         #fun-cult-part{
             /* border: 2px solid crimson; */
             display: block;
@@ -115,17 +118,28 @@ body{
             margin: auto;
             margin-top: 80px;
         }
+        .CULT{
+            border: 1px solid rgb(132, 215, 243);
+            background-color: #333a55;
+            width: 12%;
+            border-radius: 30px;
+        }
+        .CULT >img{
+            padding-left: 10px;
+        }
         #mix-img-part1{
             /* border: 2px solid blue; */
             width: 100%;
             margin: auto;
             display: grid;
             grid-template-columns: repeat(3,1fr);
+            /* border-radius: 10px; */
         }
         .mix-img{
             /* border: 2px solid rgb(168, 231, 23); */
             z-index: -1 ;
             position: absolute;
+            ;
         }
         .hover{
             /* border: 2px solid rgb(215, 23, 225); */
@@ -148,7 +162,8 @@ body{
             background-color: black;
         }
         #fun-cult-part > div:nth-child(2) >p{
-            color: rgba(58, 54, 54, 0.771);
+            /* color: #5d5c5c; */
+            color: rgb(187, 217, 226);
             font-size:x-large;
             font-weight: bold;
             word-spacing:5px;
@@ -156,6 +171,7 @@ body{
             font-family: Georgia, serif;
         }
         .explore{
+            /* color: #5d5c5c; */
             font-size: 18px;
             float: right;
             margin-top: -50px;
@@ -165,7 +181,7 @@ body{
             font-family: BrandonTextWeb-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
             cursor: pointer;
             padding-top: 0;
-            color: black;
+            color: rgb(33, 218, 235);
             font-weight: 700;
         }
         .explore-img{
@@ -179,6 +195,131 @@ body{
             word-spacing:3px;
             font-family: Georgia, serif;
             width: 60%;
-            color: #5d5c5c;
+            color:rgb(187, 217, 226);
             margin-bottom: 50px;
+        }
+        /* --------------------------COLOURFULL PART CSS----------------- */
+        .colourfull{
+            display: flex;
+            margin-top: 25%;
+        }
+        .color-mix {
+            border: 1px solid white;
+            position: relative;
+            opacity: 1;
+            transition: opacity 150ms ease 0s;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            vertical-align: middle;
+            
+        }
+        /* --------------join the cult family css start----------------- */
+        .join-cult-family{
+            /* border:1px solid red; */
+            margin:auto;
+            margin-top: 10%;
+            width: 100%;
+            font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+            }
+        .join-cult-family>div>h1{
+            text-align: center;
+            cursor: pointer;
+            margin: 0px 0px 2%;
+            margin-bottom: 60px;
+            color: white;
+            font-size: 48px;
+            letter-spacing: 0.01px;
+            line-height: 60px;
+        }
+        .join-cult-child{
+            /* border:1px solid rgb(11, 11, 11); */
+            display: flex;
+            margin: auto;
+            width: 80%;
+            /* height: 280px; */
+            justify-content: space-between;
+        }
+        .join-cult-child > div{
+            /* border:1px solid rgb(53, 27, 125); */
+            width:48%;
+        }
+        .join1{
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 30px;
+            border: none;
+            background-position: center center;
+            background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1.428749918937683,f_auto,fl_progressive//image/test/join-the-cult/career-at-cult.png);
+        }
+        .join1>div >h3{
+            text-align: center;
+            cursor: pointer;
+            margin: 0px 0px 2%;
+            color: white;
+            font-size: 40px;
+            letter-spacing: 0.01px;
+            line-height: 60px;
+        }
+        .btn > button{
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: all 250ms ease 0s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(49, 127, 244);
+            /* background: transparent; */
+            font-size: 15px;
+            line-height: 12px;
+            border-radius: 5px;
+            padding: 7px 15px;
+            font-weight: 700;
+            margin: auto auto 0px;
+            
+        }
+        .join2{
+            /* border:1px solid rgb(57, 98, 19); */
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 30px;
+            border: none;
+            background-position: center center;
+            background-image: url(https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_600,q_auto:eco,dpr_1.428749918937683,f_auto,fl_progressive//image/test/join-the-cult/career-at-cult.png);
+        }
+        .join2 > div>h3{
+            text-align: center;
+            cursor: pointer;
+            color: white;
+            font-size: 40px;
+            letter-spacing: 0.01px;
+            line-height: 40px;
+            background-image: linear-gradient(115deg, rgb(248, 186, 0) 12%, rgb(239, 95, 167) 80%);
+            width: 100%;
+        }
+        .join2>div>h5{
+            margin-top: -10px;
+            color: white;
+            font-size: large;
+        }
+        .join2>div>h5~.btn{
+            margin-bottom: 20px;
+        }
+        /* --------------------------------homepage last footer------------- */
+        .lastfooter{
+            background-color: black;
+            opacity: 0.4;
+            margin: auto;
+            display: flex;
+            height: 230px;
+            font-size: medium;
+            line-height: 10px;
+            padding-top: 30px;
+        }
+        .lastfooter a{
+            text-decoration: none;
+        }
+        .lastfooter p{
+            color: rgb(201, 200, 200);
         }

@@ -1,0 +1,64 @@
+.main-get-app a{
+    text-decoration: none;
+}
+.main-get-app p{
+    color: gainsboro;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.pcult{
+    font-size: smaller;
+    line-height: 30px;
+}
+.main-get-app{
+    margin-top: 10%;
+    border: 1px solid black;
+    width:100%;
+    height: 350px;
+    background-color: black;
+}
+
+.get-app{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 35px;
+    width:90%;
+    height:280px;
+    display: flex;
+    justify-content: space-between;
+}
+.get-first{
+    width:30%;
+    margin-top: 20px;
+}
+.get-first> div >p{
+    margin-top: 50px;
+}
+.get-sec{
+    margin-left: 40px;
+    line-height: 30px;
+}
+.get-thr{
+    width: 10%;
+    margin-left: 50px;
+    line-height: 40px;
+}
+.get-for{
+    width: 20%;
+    line-height: 40px;
+}
+.get-fiv{
+    border:1px solid black;
+    margin-top: 50px;
+    width:18%;
+}
+.social-icon{
+    border:1px solid black;
+    display: flex;
+    /* margin: auto; */
+    margin-top: 30px;
+    justify-content:space-between;
+}
+.playstore{
+    margin-top: 20px;
+}
+/* ------------- */
