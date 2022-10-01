@@ -198,14 +198,17 @@ body{
             color:rgb(187, 217, 226);
             margin-bottom: 50px;
         }
-        /* --------------------------COLOURFULL PART CSS----------------- */
+        /* --------------------------COLOURFULL PART CSS------imagination----------- */
         .colourfull{
+            cursor: pointer;
             display: flex;
             margin-top: 25%;
+            z-index: -1;
+            position:absolute;
         }
         .color-mix {
-            border: 1px solid white;
-            position: relative;
+            cursor: pointer;
+            /* border: 1px solid white; */
             opacity: 1;
             transition: opacity 150ms ease 0s;
             top: 0px;
@@ -214,11 +217,96 @@ body{
             vertical-align: middle;
             
         }
-        /* --------------join the cult family css start----------------- */
+        
+        .clrful-upper-part{
+        cursor: pointer;
+        top: 300px;
+        position: relative;
+        font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        /* border:2px solid red; */
+        margin: auto;
+        width: 99%;
+        height: auto;
+        }
+        .clrful-upper-part >div{
+            cursor: pointer;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .clrful-upper-part >div:nth-child(2)>a>button{
+            cursor: pointer;
+            padding: 5px 20px;
+            border-radius: 7px;
+            margin-bottom: 40px;
+            color: rgb(33, 73, 235);
+            font-weight: bolder;
+            background-color: transparent;
+            border: 0px;
+        }
+        .clrful-img-part{
+            cursor: pointer;
+            margin: auto;
+            /* border:1px solid red; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            width: 85%;
+            justify-content: space-between;
+        }
+        .clrful-img-part >div{
+            /* border:1px solid red; */
+            width: 90%;
+        }
+        .pro{
+            margin-top: -80px;
+            margin-left: 30px;
+        }
+        .ul-li{
+            width: 80%;
+        }
+        .ul-li >h5{
+            cursor: pointer;
+            margin-top: 60px;
+            text-align: left;
+            cursor: default;
+            color: rgb(255 255 255 / 70%);
+            font-size: 20px;
+        }
+        .ul-li >ul{
+            cursor: pointer;
+            margin-top: -20px;
+            text-align: left;
+            cursor: default;
+            color: rgb(255 255 255 / 70%);
+            font-size: 17px;
+            letter-spacing: 0px;
+            line-height: 35px;
+            margin-left: -20px;
+        }
+        .clr-btn{
+            margin-top: 50px;
+            display: flex;
+            justify-content:space-between
+        }
+        .clr-btn > a>button{
+            cursor: pointer;
+            font-size: small;
+            padding:8px 20px;
+            border-radius: 7px;
+            font-weight: 700;
+        }
+        .clr-btn>a:nth-child(1)>button{
+            background-color: #3c3c48;
+            color: white;
+        }
+        .clr-btn>a:nth-child(2)>button{
+            background-color: #ededf6;
+            color: rgb(216, 64, 64);
+        }
+        /* ----------------------------join the cult family css start----------------- */
         .join-cult-family{
             /* border:1px solid red; */
             margin:auto;
-            margin-top: 10%;
+            margin-top: 30%;
             width: 100%;
             font-family: Inter-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
             }
@@ -316,6 +404,7 @@ body{
             font-size: medium;
             line-height: 10px;
             padding-top: 30px;
+            justify-content: space-between;
         }
         .lastfooter a{
             text-decoration: none;
