@@ -88,10 +88,6 @@
 .navigation-auto{
     position: absolute;
 }
-.navigation-auto div{
-    /* border: 2px solid orangered; */
-
-}
 /* ------------------------------top css sliding part finish------------------- */
 
 /* --------------css shopping part start---------------------- */
@@ -146,4 +142,9 @@
     font-size:35px;
 }
 /* ------------------------------------shopping part css finish---------------------- */
-
+/* -----------lastfooter------------------ */
+.lastfooter{
+    background-color: black;
+    opacity: 0.9;
+}
+/* -------------------finish-------------- */

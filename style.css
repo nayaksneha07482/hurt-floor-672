@@ -54,6 +54,11 @@ body{
             grid-template-columns: repeat(3,1fr);
             grid-template-rows: repeat(1,auto);
             gap:20px;
+            transition: 1s;
+        }
+        #try-free> div:hover{
+            transform: scale(0.9);
+            z-index: 0.0;
         }
         #try-free > div{
             /* margin: auto; */
@@ -69,7 +74,7 @@ body{
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         }
         #try-free > div:hover{
-            background-color: #424757;
+            background-color: #3d4252;
         }
         #try-free > div >img{
             margin: auto;
@@ -327,6 +332,11 @@ body{
             width: 80%;
             /* height: 280px; */
             justify-content: space-between;
+            transition: 0.5s;
+        }
+        .join-cult-child :hover{
+            transform: scale(1.02);
+            z-index: 5;
         }
         .join-cult-child > div{
             /* border:1px solid rgb(53, 27, 125); */
@@ -394,21 +404,9 @@ body{
         .join2>div>h5~.btn{
             margin-bottom: 20px;
         }
-        /* --------------------------------homepage last footer------------- */
+        /* ------------------------------------------------------- */
         .lastfooter{
             background-color: black;
             opacity: 0.4;
-            margin: auto;
-            display: flex;
-            height: 230px;
-            font-size: medium;
-            line-height: 10px;
-            padding-top: 30px;
-            justify-content: space-between;
         }
-        .lastfooter a{
-            text-decoration: none;
-        }
-        .lastfooter p{
-            color: rgb(201, 200, 200);
-        }
+        /* -------------------------------------- */
