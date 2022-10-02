@@ -1,0 +1,16 @@
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+.nav-mid > a:nth-child(3){
+    border-bottom: 2px solid white;
+}
+/* ------------------------------------------ */
+.therapy{
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+}
+.therapy > img{
+    margin-left: 55px;
+}
