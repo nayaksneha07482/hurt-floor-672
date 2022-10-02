@@ -1,0 +1,10 @@
+body{
+    /* background-color:white; */
+    background-color: #171A26;
+    margin: 0;
+    padding: 0;
+    font-family: 'BrandonTextWeb-Regular';
+}
+.nav-mid>a:nth-child(1){
+    border-bottom: 2px solid white;
+}
